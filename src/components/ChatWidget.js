@@ -1,5 +1,5 @@
 // ChatWidget.js
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 
 const ChatWidget = () => {
   useEffect(() => {
@@ -9,7 +9,7 @@ const ChatWidget = () => {
         disableSounds: true // Mute all sounds
       });
     };
-    var Tawk_LoadStart = new Date();
+    // var Tawk_LoadStart = new Date();
     (function () {
       var s1 = document.createElement('script');
       var s0 = document.getElementsByTagName('script')[0];
