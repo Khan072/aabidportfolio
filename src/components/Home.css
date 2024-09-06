@@ -1,0 +1,23 @@
+/* src/components/Home.css */
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 1.5em;
+  }
+  
