@@ -40,7 +40,7 @@ const Footer = () => {
         <SocialLink href="https://www.instagram.com/aabid072/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </SocialLink>
-        <SocialLink href="hhttps://www.facebook.com/aabid" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://www.facebook.com/profile.php?id=100054966173992" target="_blank" rel="noopener noreferrer">
           <FaFacebookF />
         </SocialLink>
         <SocialLink href="https://www.linkedin.com/in/aabid-khan-402666216/" target="_blank" rel="noopener noreferrer">

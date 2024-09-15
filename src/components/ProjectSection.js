@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import myPicture1 from '../project1.jpg'; 
-import myPicture2 from '../project2.jpg'; 
+import myPicture2 from '../thth.jpg'; 
 import myPicture3 from '../project3.jpg'; 
 
 const ProjectsContainer = styled.section`
@@ -86,11 +86,11 @@ const ProjectsSection = () => {
 
         <ProjectCard>
           <ProjectImage src={myPicture2} alt="Project 3" />
-          <ProjectTitle>NewMug </ProjectTitle>
+          <ProjectTitle>LifeStyle-Blog </ProjectTitle>
           <ProjectDescription>
-          Stay informed with NewsMug, your go-to source for the latest news and updates from around the world. Whether you’re interested in politics, technology, sports, or entertainment, NewsMug brings you real-time news from trusted sources, all in one place.
+          A lifestyle blog is a personal online space where individuals share insights, tips, and experiences related to various aspects of life. These blogs often cover topics such as health and wellness, travel adventures, productivity hacks, fashion, personal development, and more.
           </ProjectDescription>
-          <ProjectButton href="#project3-details">View Details</ProjectButton>
+          <ProjectButton href="https://lifestyle-blog-ecru.vercel.app/">View Details</ProjectButton>
         </ProjectCard>
       </ProjectGrid>
     </ProjectsContainer>
