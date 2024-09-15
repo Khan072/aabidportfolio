@@ -6,8 +6,16 @@ const Nav = styled.nav`
   background-color: #333;
   padding: 1rem 2rem;
   display: flex;
+  flex-direction: start;
   justify-content: space-between;
   align-items: center;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
 `;
 
 const Logo = styled.img`
